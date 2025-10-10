@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 150vh;
+    background-color: #ccc;
+}
+header, nav {
+    height: 150vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    scroll-target-group: auto;
+}
+a:target-current {
+    background-color: yellow;
+}
+
+
+
+a {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section {
+    text-align: center;
+}
