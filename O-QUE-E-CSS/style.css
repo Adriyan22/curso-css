@@ -1,0 +1,37 @@
+/*
+
+O QUE É CSS ?
+    È a linguagem responsável por deixar uma página mais bonita e atraente.
+    CSS (cascading style sheet / folhas de estilo em cascata).
+
+
+SINTAXE 
+    seletor {
+        propriedade: valor; 
+        }
+        
+        Seletor: é o elemento html.
+        {} : agrupador de declarações.
+        propriedade: valor: descrevem o elemento.
+
+        
+COMO FUNCIONA O CSS ?
+    1 - O browser carrega o documento HTML.
+    2 - converte esse documento para DOM / Document Object Model.
+    3 - faz uma requisição dos recursos desse documento.
+    4 - O browser analisa o css , faz uma interpretação das regras especificadas nos elementos e anexa os estilos aos nós/elementos da árvore do DOM.
+    5 - Ocorre uma organização na arvore do DOM primeiro e depois a estilização aos elementos é aplicada.
+    6 - O resultado é um site bonito e bem estruturado.
+*/
+
+h1 {
+    color: #00f;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h1 , p {
+    text-align: center;
+}
